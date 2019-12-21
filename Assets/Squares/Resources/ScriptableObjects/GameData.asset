@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22ddd4286ba404df8ac2e6fc672c1e22, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  MapWidth: 5
+  MapHeight: 7
+  MapDepth: 5
+  VanishableCount: 4
+  LimitTime: 180
+  AutoFallingSpeed: 0.3
+  FastAutoFallingSpeed: 40
+  TileColors:
+  - {r: 0.78, g: 0.78, b: 0.78, a: 0.5}
+  - {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+  TileOffsetY: -0.5
+  SquareColors:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0.78, b: 1, a: 1}
+  - {r: 0, g: 1, b: 0, a: 1}
+  - {r: 1, g: 0.92, b: 0.016, a: 1}
+  - {r: 0.65, g: 0.34, b: 0.66, a: 1}
+  SquareStartPosition: {x: 2, y: 6, z: 2}
+  FallingPointAlpha: 0.5
+  ScoreVanishingPointBase: 10
+  ScoreChainBonuses: 00000000080000001000000020000000400000006000000080000000a0000000c0000000e00000000001000020010000400100006001000080010000a0010000c0010000e00100000002000020020000400200006002000080020000a0020000c0020000e00200000003000020030000400300006003000080030000a0030000c0030000e00300000004000020040000400400006004000080040000a0040000c0040000e004000000050000
+  ScoreConnectingBonuses: 000000000200000003000000040000000500000006000000070000000a000000
+  ScoreColorBonuses: 0000000003000000060000000c00000018000000
+  ScoreTotalBonusMin: 1
+  HoldTime: 0.2
+  SwipeDistance: 30
+  TouchStartAlpha: 0.1
+  TouchStartDuration: 1
+  VanishingFlashRange: {x: 0, y: 1}
+  VanishingFlashDuration: 0.2
+  ChainAnimationStartCount: 2
+  ChainText: "{0}\u9023\u9396"
+  ChainMovingY: 150
+  ChainMovingDuration: 0.5
+  ChainFadeDuration: 0.2
+  FallingDuration: 0.5
+  SquareCreationDelay: 0.5
+  ScoreCountupDuration: 0.2
